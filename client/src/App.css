@@ -23,8 +23,7 @@ ul {
   background: var(--primary-color);
 }
 .body-bg-image {
-  background: var(--primary-color) url("./img/octane.png") no-repeat top
-    center;
+  background: var(--primary-color) url(./img/octane.png) no-repeat top center;
 }
 .container {
   max-width: 960px;

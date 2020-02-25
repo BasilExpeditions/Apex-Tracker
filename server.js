@@ -1,4 +1,4 @@
-//
+//Easily Handle Routing in js
 const express = require('express');
 
 //
@@ -28,9 +28,3 @@ const port = process.env.PORT || 8000;
 app.listen(port, () =>
   console.log(`Server running in ${process.env.NODE_ENV} port ${port}`)
 );
-
-//TRN-Api-Key: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
-
-//app.get('/', (req, res) => res.send('Hello World!'));
-
-//Get request on APEX LEGENDS API URL
