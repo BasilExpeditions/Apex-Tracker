@@ -1,8 +1,15 @@
 import React from 'react';
+import Header from './components/header';
+import Search from './components/search';
 import './App.css';
 
-function App() {
-  return <div className='App'>Hello World!</div>;
-}
-
+const App = () => {
+  return (
+    <div className='container'>
+      <Header />
+      <Search />
+      Changes Saved
+    </div>
+  );
+};
 export default App;
