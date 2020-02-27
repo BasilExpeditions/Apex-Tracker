@@ -1,15 +1,21 @@
 import React from 'react';
 import Header from './components/header';
-import Search from './components/search';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 const App = () => {
   return (
     <div className='container'>
       <Header />
-      <Search />
       Changes Saved
     </div>
   );
 };
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
+
 export default App;
