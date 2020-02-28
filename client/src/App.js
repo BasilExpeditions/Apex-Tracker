@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './components/header';
-import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 const App = () => {
@@ -11,11 +10,5 @@ const App = () => {
     </div>
   );
 };
-
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-);
 
 export default App;
